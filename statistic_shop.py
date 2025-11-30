@@ -70,7 +70,7 @@ def avg_product(data):
 
 if __name__ == "__main__":
     
-    path_file = read_json("C:/Users/Pavel/Desktop/orders_july_2023.json") 
+    path_file = read_json("orders_july_2023.json") 
     print("Номер самого дорого заказа: {}".format(high_info(path_file, "price")))
     print("Номер заказа с самым большим количеством товаров: {}".format(high_info(path_file, "quantity"))) 
     print("Пользователь с саммым большим количеством заказов: {}".format(max_sum_order(path_file, "user_id"))) 
